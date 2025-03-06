@@ -5,6 +5,5 @@ def create_app():
 
     from .views.routes import api
     app.register_blueprint(api)
-
     return app
 
